@@ -16,4 +16,4 @@ idx_start_node = 1
 
 TreeSet = [false for i in 1:size(graph)[1]]
 
-path = compute_shortes_path(graph, TreeSet, idx_start_node)
+path = compute_shortest_path(graph, TreeSet, idx_start_node)

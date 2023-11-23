@@ -19,7 +19,7 @@ h, w = size(booleanmap)
 
 graph, TreeSet = convert_booleanmap2adjacencymatrix(booleanmap)
 
-path = compute_shortes_path(graph, TreeSet, idx_start_node)
+path = compute_shortest_path(graph, TreeSet, idx_start_node)
 
 plot_map, plot_obs = convert_booleanmap2plotmap(booleanmap)
 

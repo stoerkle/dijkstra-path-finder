@@ -1,7 +1,7 @@
 module Dijkstra
 
 export mindist
-export compute_shortes_path
+export compute_shortest_path
 export convert_booleanmap2adjacencymatrix
 export convert_booleanmap2plotmap
 export get_coordindates_on_map
@@ -31,7 +31,7 @@ end
 # Dijkstra's single source
 # shortest path algorithm for a graph represented
 # using adjacency matrix representation
-function compute_shortes_path(graph, tree_set, initial_node)
+function compute_shortest_path(graph, tree_set, initial_node)
     println("Source Node:", initial_node)
     # println("Graph's Adjacency Matrix:\n", graph)
     # TreeSet = [false for i in 1:size(graph)[1]] # step 1
